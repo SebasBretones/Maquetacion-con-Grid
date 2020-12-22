@@ -1,0 +1,110 @@
+/*Caracteristicas generales: margenes 0, fuente Font google, tamaño de fuente responsive*/
+
+  /* BOX-SIZING para calcular directamente todas las dimensiones de las cajas */
+  * {
+    box-sizing: border-box;
+  }
+
+
+  /* RESETEO LIMITADO DE PROPIEDADES margen 0*/
+  p,h1,h4 {
+  margin: 0px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+
+/*Aspecto especifico*/
+  /* classe .container - fuente, color, 80% ancho y centrado*/
+  .container {
+    font-family: 'Barlow', sans-serif;
+    color: #2c0404d2;
+    width: 80%;
+    display: grid;
+    grid-row-gap: 15px;  
+    margin: 5px auto;
+  }
+
+
+  /*color de la letra específico*/
+  body{
+    color: #2c0404d2;
+  }
+
+  /*La cabecera*/
+  header {
+    text-align: center;
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid #2c2538;
+
+    
+  }
+
+/* El contenedor flex para la primera fila de contenido .content_wrapper. Dirección, El ajuste,
+ Alineación horizontal, Alineación vertical   */
+
+  /* El menú */
+  nav {
+    grid-column: 1 / 2;
+    grid-row: 2 / 6;
+    padding: 10px;
+  }
+  
+  .divMenu {
+    padding-bottom: 10px;
+  }
+  
+
+  /* El elemento principal main*/
+  main {
+    text-align: center;
+    border-radius: 20px;
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    padding: 50px; 
+    width: 85%;
+    border: 1px solid #9187a1;
+
+  }
+
+  /* Artículo. Imágenes pequeñas */
+  .imgM {
+    border-radius: 20px;
+  }
+
+/* El contenedor flex para la segunda fila de contenido .articles. Dirección, El ajuste,
+ Alineación horizontal, Alineación vertical   */
+ article {
+  text-align: center;
+  border: 1.5px solid #9187a1;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.imgA {
+  border-radius: 20px;
+}
+
+h2 {
+  font-style: bold;
+}
+
+/* Pie de la página */
+/* El contenedor flex para la tercera fila de contenido footer. Dirección, El ajuste,
+ Alineación horizontal, Alineación vertical   */
+
+ footer {
+  align-items: center;
+  border-top: 1.5px solid #9187a1;
+  display: flex;
+  justify-content: space-between;
+  grid-column: 1 / 5;
+}
+
+.imgF {
+  width: 50px;
+}
