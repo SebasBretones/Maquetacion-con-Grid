@@ -22,7 +22,6 @@ Sebastián Bretones Ortiz
 ## Licencia
 Creative Commons
 
-## Recursos adicionales:
-
+### Recursos adicionales:
 ## Link a la propia página de GitHub
 [GitHubPropio] https://github.com/SebasBretones
